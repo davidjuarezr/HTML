@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="/assets/css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Pastelería Sofia</h1>
+        <h2>El mejor sabor de la zona</h2>
+        <img src="/assets/img/MiPasteleria.png"alt="">
+        
+    </header>
+        <!-- Menu -->
+    <!-- agrupar enlaces -->
+    <nav>
+        <!-- agregamos una lista desagrupada -->
+        <ul>
+            <li><a href="/index.html">INICIO</a></li>
+            <li><a href="#">PRODUCTOS</a></li>
+            <li><a href="/assets/html/pastelero.html">EXISTENCIA</a></li>
+            <li><a href="#">CONTACTO<#/a></li>
+        </ul>
+    </nav>
+
+    <h1>Hacer pedido</h1>
+
+    <div class="contenedor">
+        <form action="archivo.php">
+            <div>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" ame="nombre"><br>
+            </div>
+            <br>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="primer apellido" name="apellido">
+            </div>
+            <br>
+            <div>
+                <label for="telefono">Teléfono</label>
+                <input type="number" id="telefono" name="telefono">
+            </div>
+            <br>
+            <div>
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="telefono" name="telefono">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="direccion">Dirección</label>
+                <br>
+                <textarea name="direccion" id="direccion" cols="50" rows="4"></textarea>
+            </div>
+            <br>
+
+            <div>
+                <!-- Shift + Alt + mouse -->
+                <label for="selecmul">Seleccionar el sabor</label>
+                <select name="selecmul" id="">
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Frutas">Frutas</option>
+                    <option value="Tres leches">Tres leches</option>
+                    <option value="Rollos y variedades">Rollos y variedades</option>
+                    <option value="Tentación 3 leches">Tentación 3 leches</option>
+                </select>
+            </div>
+
+            <br>
+            <div>
+                <label for="fecha">Fecha de pedido</label>
+                <input type="date" id="fecha" name="fecha">
+            </div>
+            <br>
+
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+            <br>
+        </form>
+    </div>
+    <footer>
+        <section>
+            <article>
+                <form action="">
+                    <label for="promocion">Recibe promociones y descuentos en tu correo</label><br>
+                    <input type="text" id="promocion" name="promocion" placeholder="Dirección de correo electrónico">
+                    <input type="button" onclick="alert('Mensaje enviado')" value="Inscribirse">
+                </form>
+            </article>
+            <article>
+                <h3>Información importante</h3>
+                <h3>Contacto</h3>
+                <h3>Preguntas frecuentes</h3>
+                <h3>Facturación</h3>              
+            </article>
+            <article>
+                <h3>Horarios de atención:</h3>
+                <h3>Lunes a jueves de 9am a 8pm</h3>
+                <h3>Viernes y sábado de 9am a 9pm</h3>
+                <h3>Domingo de 10am a 8pm</h3>              
+            </article>
+        </section>
+        <p>Copyright &copy; w2022 Pastelería Sofia, Aviso legal y políticas de privacidad. Desarrollado por Jorge David Juárez
+        </p>
+    </footer>
+</body>
+</html>
